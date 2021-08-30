@@ -1,0 +1,33 @@
+#logo {
+    border-radius: 50%;
+}
+
+.section--container {
+    height: 300px;
+    width: 100%;
+}
+
+.logo--container {
+    background-color: #01579b;
+}
+
+.justify--content__start {
+    justify-content: start !important;
+}
+
+.align--items__start {
+    align-items: start !important;
+}
+
+#container--header {
+    height: 500px;
+}
+
+@media screen and (max-width: 992px) {
+    .section--container {
+        height: 500px;
+    }
+    #container--header {
+        height: 100vh;
+    }
+}
